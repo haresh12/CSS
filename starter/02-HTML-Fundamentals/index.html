@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- HTLM ENTITIES : https://css-tricks.com/snippets/html/glyphs/ -->
+<!-- we can specify the language to html tag -->
+<!-- Sementic HTML : in html there are attributes that have meaning also even some of them does not effect on page like  strong , em , nav , artical , header , footer-->
+<html lang="en">
+  <head>
+    <!-- meta : used to describe the charset inside meta tag should do 
+     Piece of data which describe the document-->
+    <meta charset="UTF" />
+    <title>HEAD MUST NEEDED IN HTML PAGE NOT VISIBLE IN PAGE</title>
+  </head>
+
+  <!-- HEADER AND ARTICAL BODY HAS THIS TWO CHIDREN TAG NOT MENDATORY BUT GOOD TO USE 
+   INSIDE ARTICAL WE CAN HAVE HEADER AND INSIDE HEADER WE CAN HAVE ARTICAL-->
+  <body>
+    <!-- DIFFERENT TYPE OF HEADING
+      EACH AND EVERY PAGE SHOULD HAVE ONLY ONE H1 HEADING DESIGN RULE
+    <h1>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h1>
+    <h2>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h2>
+    <h3>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h3>
+    <h4>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h4>
+    <h5>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h5>
+    <h6>BODY MUST NEEDED IN HTML PAGE ALL DATA OF BODY IS VISIBLE TO PAGE</h6> -->
+
+    <!-- Don't use <b> use <strong> for italic text use don't use <i> use <em> -->
+    <!-- header is also wrapper which tell page that entire content inside header is header of page  -->
+
+    <header>
+      <h1>📘 The Code Magazine</h1>
+      <!-- nav : mainly used as link navigation wrapper -->
+      <nav>
+        <a href="https://github.com/" target="_target"> CSS </a>
+        <a href="#" target="_target"> Flex box </a>
+        <a href="#" target="_target"> Grid </a>
+        <a href="#" target="_target"> Challenges </a>
+      </nav>
+    </header>
+
+    <!-- a tag known as anchor which is used to open link internal in web page or any other external website
+    here by default page opens in same page to open in next page we should use target = '_blank' attribute 
+    Without href anchor tag is just simple text-->
+
+    <article>
+    <h3>The Basic Language of the Web: HTML</h3>
+    <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+    <!-- img element has no content means no closing tag just like this <img/> -->
+    <!-- never forget alt attribute in img useful for search engines and blined people  -->
+    <!-- ARTICAL IS USED FOR MAIN INFERMATION WHERE ASIDE IS USED FOR SECONDERY INFORMATION AND THESE BOTH ARE SEMENTRIC HTML ATTRIBUTE -->
+    <img src="img/laura-jones.jpg" alt="Image of Laura jones" width="40" />
+    <p>
+      All modern websites and web applications are built using<em
+        >three fundamental</em
+      >
+      technologies: HTML, CSS and JavaScript. These are the languages of the
+      web. In this post, let's focus on HTML. We will learn what HTML is all
+      about, and why you too should learn it.
+    </p>
+    <img src="img/post-img.jpg" alt="Image of HTML code" width="500" />
+
+    <h3>What is HTML?</h3>
+    <p>
+      HTML stands for <strong> H </strong>yper <strong>T</strong>ext
+      <strong>M</strong>arkup <strong> L</strong>anguage. It's a markup language
+      that web developers use to structure and describe the content of a webpage
+      (not a programming language). HTML consists of elements that describe
+      different types of content: paragraphs, links, headings, images, video,
+      etc. Web browsers understand HTML and render HTML code as websites.
+    </p>
+    <p>In HTML, each element is made up of 3 parts:</p>
+    <!-- OL : order list with number 1 2 3 and li stand for list item -->
+    <ol>
+      <li>The opening tag</li>
+      <li>The closing tag</li>
+      <li>The actual element</li>
+    </ol>
+    <p>
+      You can learn more about it
+      <a href="https://github.com/" target="_target"> HTML GIT REPO </a>
+      OR
+      <a href="blog.html" target="_target"> INTERNAL BLOG PAGE </a>
+    </p>
+    <h3>Why should you learn HTML?</h3>
+    <p>
+      There are countless reasons for learning the fundamental language of the
+      web. Here are 5 of them:
+    </p>
+    <!-- UL : un order list  and li stand for list item -->
+    <ul>
+      <li>To be able to use the fundamental web dev language</li>
+      <li>
+        To hand-craft beautiful websites instead of relying on tools like
+        Worpress or Wix
+      </li>
+      <li>To build web applications</li>
+    </ul>
+  </body>
+</article>
+ <aside>
+    <h4>Related Post</h4>
+    <ui>
+      <li>
+        <img src="img/related-1.jpg" height="75" width="75" alt="Web dev course" />
+         <a href="#">How to learn web development</a>
+       <p>By Haresh Lakhwani</p>
+      </li>
+      <li>
+         <img src="img/related-2.jpg" height="75" width="75"  alt="App dev course"/> 
+         <a href="#">How to learn app development</a>
+        <p>By Hitesh Lakhwani</p>
+       </li>
+       <li>
+         <img src="img/related-3.jpg" height="75" width="75" alt="Web and App course"/> <a href="#">How to learn web and app development</a>
+        <p>By Rajesh Lakhwani</p>
+       </li>
+    </ui>
+ </aside>>  
+   <p>GO TO CHECKOUT PAGE : <a href="checkout.html">Checkout</a></p>
+<footer>
+  This is the footer of the page which means it should always be in last of the page
+</footer>
+</html>
